@@ -1,0 +1,49 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+    color: white;
+}
+form{
+    height: 350px;
+    width: 500px;
+    background-color: blue;
+    box-shadow: 4px 4px 12px;
+    border: none;
+    padding: 20px;
+    place-self: center;
+    text-align: center;
+}
+input{
+    display: block;
+    padding: 10px;
+    margin-top: 20px;
+    width: 400px;
+    margin-bottom: 20px;
+    place-self: center;
+}
+p a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+button{
+    background-color: white;
+    color: blue;
+    border: none;
+    border-radius: 50px;
+    padding: 10px;
+    width: 200px;
+    transition: 0.5s;
+}
+button:hover{
+     background-color: black;
+}
+@media( max-width: 500px){
+    form{
+        width: 350px;
+        height: 500px;
+    }
+    input{
+        width: 300px;
+    }
+}
