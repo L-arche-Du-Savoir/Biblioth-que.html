@@ -88,7 +88,7 @@ nav a:hover{
   
   .catalogue-item img {
     width: 100%;
-    height: 150px;
+    height: 300px;
     object-fit: cover;
   }
   
@@ -103,4 +103,33 @@ nav a:hover{
   .emprunts{
     margin: 20px 0px;
   }
-  
+  footer{
+    background-color: rgb(12, 101, 101);
+    color: white;
+    text-align: center;
+    padding: 40px;
+    font-size: small;
+}
+footer a{
+  text-decoration: none;
+  color: white;
+}
+.choice{
+  background-color: rgb(12, 101, 101) ;
+  color: white;
+  padding: 5px;
+  border-radius: 50px;
+  width: 200px;
+  justify-self: center;
+  margin: 10px 0px 10px 35px;
+  border: none;
+  box-shadow: 4px 4px 12px;
+  transition: 0.5s;
+}
+.choice:hover{
+  background-color: black;
+  color: white;
+}
+.actualites img{
+  height: 500px;
+}
