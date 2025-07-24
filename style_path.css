@@ -1,50 +1,54 @@
-
 input{
-    margin: 20px;
     height: 40px;
-    margin-left: 10px;
     width: 300px;
     border-radius: 30px;
     border: none;
-    top: 50px;
-    border-bottom: 2px solid;
+    text-align: center;
+    background-color: rgb(250, 249, 249);
+    box-shadow: 4px 4px 12px black;
+    margin-bottom: 10px;
+    display: block;
 }
 form{
-    width: 50%;
-    margin-left: 20%;
+    padding: 50px;
     height: 400px;
     text-align: center;
+    place-self: center;
+    background-color: white;
+    color: black;
+    box-shadow: 4px 4px 12px black;
+    border: none;
+    border-radius: 14px;
 }
 h1{
     text-align: center;
 }
 button{
     width: 45%;
-    margin-left: 20%;
     height: 40px;
     border-radius: 30px;
     border: none;
 }
 .for{
-    background: #03fe78;
+    background-color: rgb(5, 60, 239);
     cursor: pointer;
+    margin-top: 20px;
+    color: white;
 }
     
 body{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 60%;
-    margin-right: 50%;
     background-image: url(books-2596809.jpg);
+    background-repeat: no-repeat;
+    background-repeat: cover;
+    place-content: center;
+}
+.for:hover{
+    background-color: black;
+    color: white;
 
 }
-.container{
-    width: 600px;
-    height: 500px;
-    background-color: #54da17;
-    border-radius: 8px;
-    margin-left: 30%;
-    margin-right: 10px;
+@media ( max-width: 500px){
+    form{
+        margin-top: 50% ;
+    }
 }
-
