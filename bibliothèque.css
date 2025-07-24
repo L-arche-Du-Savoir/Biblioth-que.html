@@ -204,4 +204,12 @@ footer a{
   .catalogue-item a button{
     margin-left: 100px;
   }
+  .move-img{
+  width: 200px;
+  animation: slide 3s infinite alternate;
+}
+@keyframes slide{
+  from { transform: translateX(0);}
+  to { transform: translateX(200px);}
+}
 }
