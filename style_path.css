@@ -1,0 +1,49 @@
+
+input{
+    margin: 20px;
+    height: 40px;
+    margin-left: 10px;
+    width: 300px;
+    border-radius: 30px;
+    border: none;
+    top: 50px;
+    border-bottom: 2px solid;
+}
+form{
+    width: 50%;
+    margin-left: 20%;
+    height: 400px;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+button{
+    width: 45%;
+    margin-left: 20%;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+}
+.for{
+    background: #03fe78;
+    cursor: pointer;
+}
+    
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    margin-right: 50%;
+
+}
+.container{
+    width: 600px;
+    height: 500px;
+    background-color: #54da17;
+    border-radius: 8px;
+    margin-left: 30%;
+    margin-right: 10px;
+}
+
